@@ -1,0 +1,79 @@
+$font-14: 14px
+$font-20: 22px
+// $orange: red
+$orange: gold
+// $orange: #e3a21d
+$green: #0aab54
+
+// mixin
+@mixin br($radius)
+	border-radius: $radius
+
+*
+	box-sizing: border-box
+
+body
+	margin: 0
+	font-size: $font-14
+	color: green
+
+h2
+	font-size: $font-20
+
+p
+	font-size: $font-14
+
+p.large
+	font-size: $font-20
+
+.home
+	background-color: $orange
+	padding-top: 20px
+	padding-bottom: 20px
+	@include br(100px)
+
+.container
+	max-width: 1200px
+	margin: auto
+
+
+.styles-title
+	color: $orange 
+
+.contacts
+	background: rgba(0, 0, 0, 0.3)
+	padding-top: 20px
+	padding-bottom: 20px
+
+	.card
+		box-shadow: 3px 5px 5px $orange
+	h5
+		font-size: 30px
+
+.card-wrap
+	text-align: center
+	border: 2px solid green
+
+.card
+	display: inline-block
+	width: 20%
+	margin-right: 20px
+	margin-left: 20px
+	border: 1px solid $orange
+	@include br(50%)
+
+
+// .contacts .card
+
+
+
+
+
+
+
+
+
+
+
+
+

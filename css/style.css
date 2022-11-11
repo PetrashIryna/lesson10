@@ -1,0 +1,52 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-size: 14px;
+  color: green; }
+
+h2 {
+  font-size: 22px; }
+
+p {
+  font-size: 14px; }
+
+p.large {
+  font-size: 22px; }
+
+.home {
+  background-color: gold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 100px; }
+
+.container {
+  max-width: 1200px;
+  margin: auto; }
+
+.styles-title {
+  color: gold; }
+
+.contacts {
+  background: rgba(0, 0, 0, 0.3);
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  .contacts .card {
+    -webkit-box-shadow: 3px 5px 5px gold;
+            box-shadow: 3px 5px 5px gold; }
+  .contacts h5 {
+    font-size: 30px; }
+
+.card-wrap {
+  text-align: center;
+  border: 2px solid green; }
+
+.card {
+  display: inline-block;
+  width: 20%;
+  margin-right: 20px;
+  margin-left: 20px;
+  border: 1px solid gold;
+  border-radius: 50%; }
